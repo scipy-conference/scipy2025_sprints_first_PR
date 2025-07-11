@@ -1,7 +1,7 @@
 # Contributing to Open Source: Pull request and review
 
-### 2024 July 12
-#### Scipy 2024, Tacoma, Washington, USA
+### 2025 July 11
+#### Scipy 2025, Tacoma, Washington, USA
 
 #### [Brigitta Sipőcz](https://github.com/bsipocz/), Caltech/IPAC
 

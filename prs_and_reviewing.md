@@ -39,7 +39,7 @@ For further read about open source contributing workflows see any of the followi
 
 ### 1a: Fork the repository
 
-The repository we will be opening pull requests to is at https://github.com/scipy-conference/scipy2024_sprints_first_PR .
+The repository we will be opening pull requests to is at https://github.com/scipy-conference/scipy2025_sprints_first_PR .
 Since you don't have write access to this repository, the first step will be to make a "fork" of the repository.
 This is basically a copy of the main repository, but one that you have complete control to modify as you see fit
 (and that is visible to everyone else on GitHub).  Make sure you are logged in to GitHub, then go to the
@@ -47,7 +47,7 @@ repository and click the 'Fork' button:
 
 ![](images/fork.png)
 
-This will create a copy of the repository at ``https://github.com/<username>/scipy2024_sprints_first_PR``
+This will create a copy of the repository at ``https://github.com/<username>/scipy2025_sprints_first_PR``
 where ``<username>`` is your GitHub username.
 
 ### 1b: Clone your fork
@@ -56,7 +56,7 @@ Now that you have forked your repository, you can clone it to your computer.
 
 You can use HTTPS:
 
-    git clone -o <username> https://github.com/<username>/scipy2024_sprints_first_PR
+    git clone -o <username> https://github.com/<username>/scipy2025_sprints_first_PR
 
 GitHub has turned off password authentication, so you will need to set up token access for HTTPS.
 Follow these [instructions](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-personal-access-token-classic) to generate a token, and then use it in place of your password.
@@ -68,7 +68,7 @@ you won't have to type your user name and password every time).
 
 With ssh set up, you can use:
 
-    git clone -o <username> git@github.com:<username>/scipy2024_sprints_first_PR
+    git clone -o <username> git@github.com:<username>/scipy2025_sprints_first_PR
 
 Be sure to replace ``<username>`` with your GitHub username in both cases!
 
@@ -76,11 +76,11 @@ Be sure to replace ``<username>`` with your GitHub username in both cases!
 
 Once the repository has been cloned, ``cd`` into it and check what files are available:
 
-    cd scipy2024_sprints_first_PR
+    cd scipy2025_sprints_first_PR
     ls
 
 Under ``participants`` you should see a set of directories, with one directory per participant. Please comment on the conference Slack channel,
-#bof-scipy-2024-sprint-prep-bof, to claim a directory to let others know to work in another one to avoid conflicts.
+#bof-scipy-2025-sprint-prep-bof, to claim a directory to let others know to work in another one to avoid conflicts.
 
     cd participants/scipy_000
 
@@ -146,7 +146,7 @@ Once you've done at least one of these, you can move to the next step!
 ```
 ================================================= test session starts ==================================================
 platform darwin -- Python 3.11.0, pytest-7.2.1, pluggy-1.0.0
-rootdir: /Users/bsipocz/munka/devel/scipy2024/scipy2024_sprints_first_PR/participants/scipy_000
+rootdir: /Users/bsipocz/munka/devel/scipy2025/scipy2025_sprints_first_PR/participants/scipy_000
 plugins: remotedata-0.4.0, rerunfailures-10.3, nbval-0.10.0, doctestplus-0.13.0, hypothesis-6.58.1, mock-3.10.0, dependency-0.5.1, filter-subpackage-0.1.2, requests-mock-1.10.0, astropy-header-0.2.2, astropy-0.10.0, cov-4.0.0, openfiles-0.5.0, anyio-3.6.2, arraydiff-0.5.0
 collected 1 item
 
@@ -199,7 +199,7 @@ ask your friendly instructors!
 
 ### 1h: Open a pull request
 
-At this point, go to your fork on GitHub at ``https://github.com/<username>/scipy2024_sprints_first_PR``, and
+At this point, go to your fork on GitHub at ``https://github.com/<username>/scipy2025_sprints_first_PR``, and
 you should see a yellow-ish banner that looks like this:
 
 ![](images/pushed.png)
@@ -269,7 +269,7 @@ If you are opening a pull request on a busy repository such as the core astropy 
 may make improvements to the code after you have opened it, and you may need to rely on their changes.
 If this happens, you can use ``git remote`` to add the main repository as a source you can get changes from:
 
-    git remote add scipy-conference https://github.com/scipy-conference/scipy2024_sprints_first_PR
+    git remote add scipy-conference https://github.com/scipy-conference/scipy2025_sprints_first_PR
 
 You only need to do this once for a given local repository.
 
@@ -297,7 +297,7 @@ https://learngitbranching.js.org/
 
 
 ### License
-Developed for Scipy 2023&2024 by Brigitta Sipőcz &copy; licensed under a
+Developed for Scipy 2023--2025 by Brigitta Sipőcz &copy; licensed under a
 [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
 Based on earlier versions for

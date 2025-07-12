@@ -6,10 +6,10 @@ Here is a function that produces a factorial:
     >>> factorial(10)
     9
 
-Here is a function that outputs the fibonnaccccccci sequence, 
+Here is a function that outputs the fibonacci sequence, 
 while the result is less than the given integer:
 
-    >>> fibonnaccci(100)
+    >>> fibonacci(100)
     [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 
 If you can't use it, its kind of your problem, not mine!

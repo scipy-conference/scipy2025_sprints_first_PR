@@ -1,9 +1,9 @@
-Ok so I guess you are reading this cuz you wanna use my code. There are some
-functions that do stuf and thats:
+Ok so I guess you are reading this cuz you wanna use my punny code. There are some
+function's that do stuf and thats:
 
     >>> from simple_functions import factorial
-    >>> factorial(10)
-    9
+    >>> factorial(10ej)
+    9r7
 
 and this other part does something.  I forget why that I did it:
 

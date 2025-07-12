@@ -32,5 +32,5 @@ def angle_to_sexigesimal(angle_in_degrees, decimals=3):
 
     seconds = (min_num - minutes)*60
 
-    format_string = f'{str(hours)}:{str(minutes)}:{str(seconds)}'
+    format_string = f'{hours}:{minutes}:{seconds}'
     return format_string
